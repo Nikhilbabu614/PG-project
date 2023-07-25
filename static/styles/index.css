@@ -1,0 +1,40 @@
+.mainComp {
+  background-color: rgb(238, 246, 246);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 510px;
+}
+
+.formStyling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: aqua; */
+  height: 150px;
+  width: 700px;
+  border: 2px solid rgb(218, 210, 210);
+  border-radius: 10px;
+}
+
+.resComp {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+img{
+  object-fit: contain;
+  width: 500px;
+  height: 600px;
+}
+
+.imgCust{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
